@@ -1,0 +1,21 @@
+{
+  "name": "enemies_fade_on_low_health",
+  "namespace": "tomat",
+  "version_number": "1.0.0",
+  "description": "Enemies reduce in alpha proportionally to their current health over their maximum health (buffs included).",
+  "website_url": "https://github.com/steviegt6/windowkill-mods",
+  "dependencies": [],
+  "extra": {
+	"godot": {
+	  "authors": ["tomat"],
+	  "tags": [],
+	  "description_rich": "Tweaks enemies to reduce in alpha as they lose health, causing them to sort of fade. This allows you to roughly gauge an enemy's health without knowing exact values.",
+	  "optional_dependencies": [],
+	  "load_before": [],
+	  "incompatibilities": [],
+	  "compatible_mod_loader_version": ["6.2.0"],
+	  "compatible_game_version": ["3.2.0"],
+	  "config_schema": {}
+	}
+  }
+}
